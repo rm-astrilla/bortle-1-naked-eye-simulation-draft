@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bortle 1 naked eye simulation</title>
-    <meta name="description" content="Custom Stellarium Resources by Raihan Mohammad">
-    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bortle 1 Simulation - Raihan Mohammad</title>
     <style>
-      body { margin: 0; overflow: hidden; }
+        /* Menghilangkan scrollbar dan membuat container penuh */
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #000; }
+        .wrapper { position: relative; width: 100%; height: 100%; }
+        iframe { width: 100%; height: 100%; border: none; }
     </style>
-  </head>
-  <body>
+</head>
+<body>
 
-    <a-scene loading-screen="dotsColor: white; backgroundColor: black">
-      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe 
-    src="https://www.youtube.com/watch?v=_ZeUJY16J00" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; xr-spatial-tracking" 
-    allowfullscreen>
-  </iframe>
-</div>
-    </a-scene>
+    <div class="wrapper">
+        <iframe 
+            src="https://www.youtube.com/embed/ID_VIDEO_KAMU?rel=0&iv_load_policy=3&enablejsapi=1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; xr-spatial-tracking" 
+            allowfullscreen>
+        </iframe>
+    </div>
 
-  </body>
+</body>
 </html>
